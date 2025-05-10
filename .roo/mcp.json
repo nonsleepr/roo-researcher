@@ -4,9 +4,7 @@
       "command": "npx",
       "args": [
         "-y",
-        "@playwright/mcp@latest",
-        "--executable-path",
-        "/home/nonsleepr/.nix-profile/bin/chromium"
+        "@playwright/mcp@latest"
       ],
       "alwaysAllow": [
         "browser_wait",
