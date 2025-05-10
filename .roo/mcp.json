@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "browser": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@latest",
+        "--executable-path",
+        "/home/nonsleepr/.nix-profile/bin/chromium"
+      ],
+      "alwaysAllow": [
+        "browser_wait",
+        "browser_tab_list",
+        "browser_tab_select",
+        "browser_type",
+        "browser_snapshot",
+        "browser_press_key",
+        "browser_click",
+        "browser_navigate"
+      ],
+      "disabled": false
+    }
+  }
+}
